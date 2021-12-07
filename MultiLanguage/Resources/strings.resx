@@ -123,4 +123,13 @@
   <data name="msgLong" xml:space="preserve">
     <value>This is a sample message for multi-language demo.</value>
   </data>
+  <data name="msgUpdateLanguage" xml:space="preserve">
+    <value>Are you sure you want to update language?</value>
+  </data>
+  <data name="msgUpdateRestart" xml:space="preserve">
+    <value>Restart application for the changes to take effect?</value>
+  </data>
+  <data name="msgUpdateTitle" xml:space="preserve">
+    <value>Language Update</value>
+  </data>
 </root>

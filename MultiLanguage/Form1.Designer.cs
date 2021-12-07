@@ -46,7 +46,7 @@ namespace MultiLanguage
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(218, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(552, 119);
@@ -71,6 +71,7 @@ namespace MultiLanguage
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
 

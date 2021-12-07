@@ -77,5 +77,32 @@ namespace MultiLanguage.Resources {
                 return ResourceManager.GetString("msgLong", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Are you sure you want to update language?.
+        /// </summary>
+        internal static string msgUpdateLanguage {
+            get {
+                return ResourceManager.GetString("msgUpdateLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Restart application for the changes to take effect?.
+        /// </summary>
+        internal static string msgUpdateRestart {
+            get {
+                return ResourceManager.GetString("msgUpdateRestart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Language Update.
+        /// </summary>
+        internal static string msgUpdateTitle {
+            get {
+                return ResourceManager.GetString("msgUpdateTitle", resourceCulture);
+            }
+        }
     }
 }

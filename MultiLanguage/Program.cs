@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -14,6 +15,10 @@ namespace MultiLanguage
         [STAThread]
         static void Main()
         {
+            string lang = Language.Get();
+            Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(lang);
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(lang);
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
